@@ -1,0 +1,7 @@
+
+<p>{{user.username}}您好：</p>
+
+<p>请点击以下连接验证您的账号：<a href="{{url_for('auth.confirm',token=token,_external=True)}}">验证</a></p>
+<p>或者您可以复制以下链接到您的浏览器地址栏：</p>
+<p>{{ url_for('auth.confirm', token=token, _external=True) }}</p>
+<p class="text-right"> ToolPack</p>

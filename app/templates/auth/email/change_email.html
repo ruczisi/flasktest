@@ -1,0 +1,8 @@
+<p>{{user.username}}您好：</p>
+
+<p>>您正在修改您在ToolPack的邮箱，如确认是你本人操作，请<a href="{{ url_for('auth.change_email', token=token, _external=True) }}">确认</a> </p>
+<p>如上述链接无法点击，请将以下链接复制到您浏览器地址栏进行验证操作：</p>
+<p>{{ url_for('auth.change_email', token=token, _external=True) }}</p>
+<p>如不是您本人操作，则账号可能存在风险，请前往ToolPack修改您的密码。</p>
+
+<p>ToolPack团队</p>

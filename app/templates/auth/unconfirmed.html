@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block page_title %}请确认您的账户{% endblock %}
+{% block page_content %}
+<div class="page-header">
+<h1>Hello,{{ current_user.username }}</h1>
+</div>
+    <div>
+    <p>您的账号还没有验证，请前往邮箱进行验证......</p>
+    <p>没有收到邮件？点击再次发送<a href="{{ url_for('auth.resend_confirmation') }}">邮件</a> </p>
+    </div>
+{% endblock %}

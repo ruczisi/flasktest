@@ -1,0 +1,7 @@
+{{user.username}}您好：
+
+您正在修改您在ToolPack的邮箱，如确认是你本人操作，请点击以下链接：
+{{ url_for('auth.change_email', token=token, _external=True) }}
+如不是您本人操作，则账号可能存在风险，请前往ToolPack修改您的密码。
+
+ToolPack团队
