@@ -97,7 +97,7 @@ PyInstaller==3.4
 pylint==2.2.2
 pymongo==3.7.2
 pyparsing==2.3.1
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 pypiwin32==223
 pyrsistent==0.14.11
 pyserial==3.4
