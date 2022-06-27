@@ -112,7 +112,7 @@ pywinpty==0.5.5
 PyYAML==5.1
 pyzmq==18.0.1
 qtconsole==4.4.3
-reportlab==3.5.21
+reportlab==3.5.55
 requests==2.21.0
 selenium==3.141.0
 Send2Trash==1.5.0
